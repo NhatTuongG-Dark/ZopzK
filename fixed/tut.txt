@@ -1,0 +1,7 @@
+go build main.go
+
+Everything works fine.
+
+Enjoy and tell yo friends about t.me/Lovemanager
+
+bbos com is the best leaks ong ong nigga
