@@ -1,0 +1,14 @@
+succubus -> 2023/08/30 04:56:36 [zopz:Attack] {App:API,Hosts:1,Host:98.204.210.98,Port:80,Time:60,Method:HOME-KILL}
+succubus -> 2023/08/30 04:58:21 [zopz:Attack] {App:API,Hosts:1,Host:98.204.210.98,Port:80,Time:1000,Method:HOME}
+succubus -> 2023/08/30 05:06:27 [zopz:Attack] {App:API,Hosts:1,Host:104.3.177.16,Port:80,Time:60,Method:HOME-KILL}
+succubus -> 2023/08/30 05:18:35 [zopz:Attack] {App:API,Hosts:1,Host:3.237.228.103,Port:9047,Time:60,Method:GAME-ALL}
+succubus -> 2023/08/30 05:22:34 [zopz:Attack] {App:API,Hosts:1,Host:3.237.228.103,Port:9047,Time:60,Method:GAME-ALL}
+succubus -> 2023/08/30 05:26:05 [zopz:Attack] {App:API,Hosts:1,Host:178.79.156.219,Port:80,Time:60,Method:HOME-KILL}
+succubus -> 2023/08/30 05:28:25 [zopz:Attack] {App:API,Hosts:1,Host:178.79.156.219,Port:80,Time:1200,Method:HOME}
+succubus -> 2023/08/30 05:33:45 [zopz:Attack] {App:API,Hosts:1,Host:23.87.80.19,Port:80,Time:1200,Method:HOME}
+succubus -> 2023/08/30 05:42:33 [zopz:Attack] {App:API,Hosts:1,Host:34.150.219.198,Port:9029,Time:60,Method:GAME-ALL}
+succubus -> 2023/08/30 05:48:33 [zopz:Attack] {App:API,Hosts:1,Host:3.239.140.58,Port:9014,Time:60,Method:GAME-ALL}
+succubus -> 2023/08/30 05:59:28 [zopz:Attack] {App:API,Hosts:1,Host:3.239.140.58,Port:9014,Time:60,Method:GAME-ALL}
+succubus -> 2023/08/30 06:10:32 [zopz:Attack] {App:API,Hosts:1,Host:3.144.67.76,Port:9053,Time:60,Method:FORTNITE-LAG}
+succubus -> 2023/08/30 06:12:43 [zopz:Attack] {App:API,Hosts:1,Host:35.161.248.98,Port:3478,Time:60,Method:PSN-CRASH}
+succubus -> 2023/08/30 06:15:36 [zopz:Login] 104.28.218.183:13797 America/New_York

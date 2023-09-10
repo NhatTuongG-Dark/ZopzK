@@ -1,0 +1,17 @@
+{
+    "enabled":false,
+    "token":"MTE0Mzk5NzcyOTA5MDA1MjEwNg.G4Yuio.4B9NKeIIvhocDl4mjSjjSPV5T6Hz6LNSpO67qU",
+    "webhook":"",
+
+    "-Comment- Remove this line":"Attack Sent!",
+    "logs":{
+        "enabled":true,
+        "channel": 1143997183994114201
+    },
+    "monitor":{
+        "enabled":true,
+        "channel": 1143997183994114201,
+        "message": 1143997183994114201,
+        "delay": 5000
+    }
+}

