@@ -1,0 +1,27 @@
+name=plan
+description=shows your plan
+admin=false
+reseller=false
+vip=false
+==================== MENU SPLIT DONE ====================
+[0mID: [38;5;11m<<$id>>[0m
+Username: <<$username>>
+Admin: <<$admin>>
+Reseller: <<$reseller>>
+VIP Plan: <<$vip>>
+Banned: <<$banned>>
+Power Saving Mode: <<$powercompression>>
+Bypass Blacklist: <<$bypassblacklist>>
+
+Days Left: [38;5;11m<<$daysleft>>[0m
+Hours Left: [38;5;11m<<$hoursleft>>[0m
+Seconds Left: [38;5;11m<<$secondsleft>>[0m
+
+MaxTime: [38;5;11m<<$maxtime>>[0m
+Cooldown: [38;5;11m<<$cooldown>>[0m
+Concurrents: [38;5;11m<<$conrurrents>>[0m
+Max Sessions: [38;5;11m<<$maxsessions>>[0m
+Current Running Attacks globally: [38;5;11m<<$running>>[0m
+Global Attacks Launched: [38;5;11m<<$sent>>[0m
+Attacks Sent By <<$username>>: [38;5;11m<<$mysent>>[0m
+Current IPv4: [38;5;26m<<$myip>>[0m

@@ -1,0 +1,7 @@
+name=myip
+description=shows your current IPv4 Address
+admin=true
+reseller=false
+vip=false
+================== END ==================
+Your public IPv4 is <<$Myip>>!

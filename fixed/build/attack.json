@@ -1,0 +1,41 @@
+{
+     "Attacks" : [
+
+          {
+               "Name" : "lkz-home",
+               "AttackName" : "LKZ-HOME",
+               "Description" : "Standard Home Flood",
+               "API" : "https://www.yoox.com/uk",
+
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 20
+               },
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : true
+          },
+
+          {
+               "Name" : "lkz-lol",
+               "AttackName" : "LKZ-HOME",
+               "Description" : "Standard Home Flood",
+               "API" : "https://google.com",
+               
+               "moderation" : {
+                    "LimitMaxTime" : true,
+                    "MaxTime" : 20
+               },
+
+
+               "DefaultPort" : "80",
+
+
+               "AdminMethod" : false,
+               "VipMethod" : true
+          }
+     ]
+}
